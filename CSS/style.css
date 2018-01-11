@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+#Image{
+	border:rgba(255,255,255,1.00) thin;
+}
+body {
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: black 4px 4px 2px;
+	color:white;
+}
+#Background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	z-index: -1;
+}
+checkout{
+	background-color: rgba(33,33,33,1.00);
+}
+a {
+	text-decoration: none;
+	color: black
+}
+#wrapper {
+}
+#nav {
+}
+header{
+	position:fixed;
+	width: 100vw;
+	height: 5vw;
+}
+header #nav #Module{
+	padding:0.5%;
+	float: left;
+	color: white;
+}
+header #nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+header #nav li {
+	right:10%;
+    float: right;
+}
+header #nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw 1.1vw;
+    text-decoration: none;
+}
+header #nav li a:hover {
+    background-color: #111;
+}
+header #nav button {
+    background-color:rgba(70,70,70,1.00);
+	color: rgba(255,255,255,1.00);
+	float: left;
+	
+}
+header #nav img {
+float: left;
+}
+
+article {
+	width: 100vw;
+	height: 75vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+article p1{
+	margin-left:20vw;
+	margin-right:20vw;	
+}
+#about {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	flex-direction: column;
+	background-color:rgba(20,20,20,0.50);
+}
+#about canvas{
+	border-style: solid;
+	border-color: rgba(0,0,0,1.00);
+	background-color: white;
+}
+about {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	flex-direction: column;
+	background-color:rgba(20,20,20,0.50);
+}
+#about h1 {
+	text-align: center;
+}
+#AboutHead{
+	padding-top: 10%;
+	padding-bottom:1% ;
+}
+#Albums {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	flex-direction: column;
+	background-color:rgba(66,66,66,0.50);
+  top: 0;
+  left: 0;
+}
+.AlbumI{
+	width: 300px;
+	height: 300px;
+}
+.AlbumI:hover{
+	opacity: 0.5;
+	content: "Add to Cart";
+}
+#Contact {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	flex-direction: column;
+	background-color:rgba(0,0,0,0.50);
+}
+h1 {
+	margin: 0;
+}
+#information{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+crit{
+	width: 100vw;
+	max-width: 100vw;
+	background-color: rgba(33,33,33,1.00);
+}
+crit p{
+	margin-left: 25%;
+	margin-right: 25%;
+	width: auto;
+	height: auto;
+}
+
+

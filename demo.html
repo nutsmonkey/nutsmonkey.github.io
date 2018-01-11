@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Amongst Thieves</title>
+<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<script src="JS/main.js"></script>
+</head>
+<body>
+<header>
+  <nav id="nav">
+    <ul>
+      <li id="Module">
+        <img src="Assets/Logo.jpg" alt="logo" width="5%" height="5%">
+		  <button id = "Mute" onClick = "mute()" type="button">Mute Sound</button>
+      </li>
+	  <li><a href="CritLog.html">Critical Log</a></li>
+      <li><a href="demo.html">Demo Video</a></li>
+      <li><a href="store.html">Checkout</a></li>
+      <li><a href="index.html">Main Page</a></li>
+    </ul>
+  </nav>
+</header>
+<div id="wrapper">
+  <video autoplay loop id="Background">
+    <source src="Assets/AmongstThievesA.mp4">
+  </video>
+  <article id="about">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wGcR-Cg8yuw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </article>
+	<article id="Albums">
+    <h1 id ="AboutHead"> Albums </h1>
+	  <img class="AlbumI" onclick="location.href='https://itunes.apple.com/gb/album/march-for-the-sun-ep/id993699805';"  src="Assets/MFTS.jpg" alt="MARCH FOR THE SUN">
+	  <img class="AlbumI" onClick="location.href='https://itunes.apple.com/gb/album/amongst-thieves/id1200842258';" src="Assets/ST.jpg" alt="SELF TITLED">
+	  <img class="AlbumI" onClick="location.href='https://itunes.apple.com/gb/album/revise.-reform.-ep/id886728350';" src="Assets/RR.jpg" alt="REVERSe. REFORM.">
+	  <p>Click Album to go to the Itunes</p>
+  </article>
+</div>
+</body>
+</html>
