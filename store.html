@@ -11,10 +11,10 @@
   <nav id="nav">
     <ul>
       <li id="Module">
-        <img src="Assets/Logo.jpg" alt="logo" width="5%" height="5%">
+          <img id="Logo" src="Assets/Logo.jpg" alt="logo">
 		  <button id = "Mute" onClick = "mute()" type="button">Mute Sound</button>
       </li>
-	  <li><a href="CritLog.html">Critical Log</a></li>
+	  <li><a href="CritLog.html">Critical Log</a></li><!--nav bar-->
       <li><a href="demo.html">Demo Video</a></li>
       <li><a href="store.html">Checkout</a></li>
       <li><a href="index.html">Main Page</a></li>
@@ -28,16 +28,20 @@
   <article id="about">
 	  <checkout>
 		  <h1>Checkout</h1>
+		  <!--all paragraphs that get changed via JavaScript-->
 	  <p id="MFTS"></p>
 	  <p id="ST"></p>
 	  <p id="RR"></p>
 	  <p id="Total"></p>
 	  <p><u>Draw Signature Below</u></p>
 	  <canvas  id="myCanvas" width="200" height="100"></canvas>
+		  <!--all buttons to do with canvas-->
 	  <p id="Buttons"><button onClick = "save()" type="button">Save Signature</button>    <button onClick = "Loadsig()" type="button">Load Signature</button>  <input type="button" id="clear" value="Clear Signature"></p>
+		  <!--payment pictures-->
 	  <p onClick="Payment()" id = "pay"><img src="Assets/Bitcoin.png" alt="Bitcoin" height="25vw"><img src="Assets/Paypal.png" alt="Bitcoin" height="25vw"><img src="Assets/Visa.png" alt="Bitcoin" height="25vw"></p>
 		  </checkout>
   </article>
+	<!--Album pictures and link to their Itunes when clicked-->
 	<article id="Albums">
     <h1 id ="AboutHead"> Albums </h1>
 	  <img class="AlbumI" onclick="location.href='https://itunes.apple.com/gb/album/march-for-the-sun-ep/id993699805';"  src="Assets/MFTS.jpg" alt="MARCH FOR THE SUN">
